@@ -1,0 +1,27 @@
+name: mobil_kodlama_final
+description: Final ölçme ve değerlendirme sınavıdır.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  fluttertoast: 8.0.6
+  http: 0.13.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/igun_logo.png
